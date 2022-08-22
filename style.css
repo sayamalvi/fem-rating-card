@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  } */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin: 1rem;
+}
+
+.card_state-one {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1.3rem;
+    border-radius: 10px;
+    background-color: hsl(213, 19%, 18%);
+    margin: 12rem auto;
+}
+
+.card_state-one img {
+    border-radius: 100%;
+    border: 1px solid transparent;
+    padding: .5rem;
+    background-color: hsla(210, 7%, 27%, 0.297);
+}
+
+.card_state-one h2 {
+    color: white;
+    padding: .2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card_state-one p {
+    color: rgb(134, 137, 144);
+    max-width: 360px;
+    margin: .7rem 0;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.4rem 0;
+    width: 100%;
+}
+
+.number {
+    color: rgb(134, 137, 144);
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    border-radius: 100%;
+    background-color: hsla(210, 7%, 27%, 0.297);
+    margin: 0 .8rem;
+    cursor: pointer;
+}
+
+.number:hover {
+    background-color: rgb(213, 206, 206);
+    transition: .2s all ease-in-out;
+}
+
+.btn {
+    width: 100%;
+    padding: .7rem 2rem;
+    background-color: hsl(25, 97%, 53%);
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: .2s all ease-in-out;
+}
+
+
+
+/* Active card  */
+
+.card_state-two {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1.3rem;
+    border-radius: 10px;
+    background-color: hsl(213, 19%, 18%);
+    margin: 12rem auto;
+}
+
+.card_state-two img {
+    height: 8rem;
+    width: 10rem;
+    margin: 0 auto;
+}
+
+.card_state-two h2 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card_state-two p {
+    color: rgb(134, 137, 144);
+    max-width: 360px;
+    margin: .7rem 0;
+    text-align: center;
+}
+
+.final-review p {
+    text-align: center;
+    background-color: hsla(210, 7%, 27%, 0.297);
+    border-radius: 20px;
+    font-size: .9rem;
+    margin: 1rem 0;
+    color: hsl(25, 97%, 53%, .8);
+    padding: .2rem .8rem;
+    width: fit-content;
+    margin: 1.5rem auto;
+}
+
+.hidden {
+    display: none;
+}
