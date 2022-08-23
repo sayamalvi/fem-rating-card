@@ -11,8 +11,7 @@ btn.addEventListener('click', () => {
 
 numbers.forEach((number) => {
   number.addEventListener('click', () => {
-    const value = number.textContent;
-    rate.textContent = value;
+    rate.textContent = number.textContent;
   })
 })
 
